@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block content %}
+<img src="{{ url_for('static', filename='air_max_97.jpg') }}" height="300" width="250">
+<a href="nikes"><h5>Nike Air Max 97's</h5></a>
+<p>£120</p>
+
+<br>
+
+<img src="{{ url_for('static', filename='armor_lux_jacket.jpg') }}" height="300" width="250">
+<a href="jacket"><h5>Armor Lux Heritage Fisherman Jacket</h5></a>
+<p>£100</p>
+
+<br>
+
+<img src="{{ url_for('static', filename='black_carhartt_hat.jpg') }}" height="300" width="250">
+<a href="hat"><h5>Black Carhartt Beanie</h5></a>
+<p>£20</p>
+
+<br>
+
+<img src="{{ url_for('static', filename='black_levis.jpg') }}" height="300" width="250">
+<a href="jeans"><h5>Levi Skate 511 Slim Jeans</h5></a>
+<p>£50</p>
+
+<br>
+
+<img src="{{ url_for('static', filename='quartersnacks_tee.jpg') }}" height="300" width="250">
+<a href="tshirt"><h5>Quartersnacks Russian T-Shirt</h5></a>
+<p>£30</p>
+
+{% endblock content %}

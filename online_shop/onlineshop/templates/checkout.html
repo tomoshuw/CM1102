@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+<form action="/thankyou">
+  <fieldset>
+  <legend>Please Enter Your Details Below</legend>
+  
+  Card Number:<br>
+  <input type="text" placeholder="XXXX-XXXX-XXXX-XXXX" maxlength="16"  name="CardNumber" required>
+  <br>
+  Expiration Date (MM / YY):<br>
+  <input maxlength="4" name="Date"  placeholder="MM/YY" required>
+  <br>
+  Security Code:<br>
+  <input type="text" maxlength="3"  name="Security" placeholder="See back of Card" required>
+  <br><br>
+
+  </fieldset>
+  <input type="submit" value="Submit">  
+</form>
+{% endblock content %}"
